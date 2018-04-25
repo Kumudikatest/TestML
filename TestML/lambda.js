@@ -6,8 +6,8 @@ exports.handler = function (event, context, callback) {
 		PredictEndpoint: 'https://realtime.machinelearning.us-east-1.amazonaws.com',
 		Record: {
 			Var01: 32,
-			Var02: services,
-			Var03: divorced
+			Var02: 'services',
+			Var03: 'divorced'
 		}
 	}, function (err, data) {
 		if (err) console.log(err, err.stack); // an error occurred
